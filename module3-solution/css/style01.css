@@ -18,24 +18,30 @@ body {
 	text-decoration: none;
 }
 /**navagition bar**/
-div#collapsable-nav {
-		
+#nav-list a {
+	background-color: white;
+	font-weight: bold;
+	border-bottom-color: gray;
+	line-height: 20px;
 }
-#nav-list a:active {
-	background-color: pink;
-	color: black;
-	font-size: 1.2em;
-}
-#nav-list a:hover, li.item a:focus {
-	background-color: blue;
-	color:red;
-	font-size: 1.2em;
-}
-/**content**/
-/**div.discription {
-	margin: 15px;
+/**--#nav-list a>span {
+	background: white;
+	margin:0px;
+	padding: 0px;
 	line-height: 1.5;
 }**/
+#nav-list a:active a:focus {
+	background-color: blue;
+	color:white;
+	font-size: 1.2em;
+}
+hr {
+	margin-top: 0;
+	margin-bottom: 0px;
+	border-width: 1px;
+	color: gray;
+}
+/**content**/
 #item1, #item2, #item3 {
 	font-size: 1.2em;
 }
