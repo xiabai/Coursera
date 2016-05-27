@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/**header**/
+#header-nav {
+	background-color: lightgray;
+	border-radius: 20;
+}
+.navbar-brand h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+/**navagition bar**/
+div#collapsable-nav {
+		
+}
+#nav-list a:active {
+	background-color: pink;
+	color: black;
+	font-size: 1.2em;
+}
+#nav-list a:hover, li.item a:focus {
+	background-color: blue;
+	color:red;
+	font-size: 1.2em;
+}
+/**content**/
+/**div.discription {
+	margin: 15px;
+	line-height: 1.5;
+}**/
+#item1, #item2, #item3 {
+	font-size: 1.2em;
+}
+.discription h2 {
+	font-size: 1.5em;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}

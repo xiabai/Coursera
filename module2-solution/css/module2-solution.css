@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 15px
+}
+
+nav.box {
+	
+	background-color: gray;
+	border: 5px solid black;
+	margin: 10px;
+	color:white;
+	height: 200px;
+	overflow: auto;
+}
+div.col1 {
+	text-align: center;
+	width: 20%;
+	border: 2px solid black;
+	float: right;
+}
+div.col2{
+	float: left;
+}
+#chicken {
+	background-color: white;
+	color: black;
+}
+#beef {
+	background-color: pink;
+	color: black;
+}
+#sushi {
+	background-color: red;
+	color: white;
+}
+/**********large devices only***********/
+@media (min-width: 992px) {
+	nav.box {
+		box-sizing: border-box;
+		float: left;
+		width: 30.33%;
+	}
+}
+/**********medium size devices only********/
+@media (min-width: 768px) and (max-width: 991px) {
+	nav.box {
+		float: left;
+	}
+	#box1, #box2 {
+		width: 46.5%;
+	}
+}
+/**********small divices only*********/
+@media (max-width: 776px) {
+	nav.box {
+		float: left;
+		width: 100%
+	}
+=======
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 15px
+}
+
+nav.box {
+	
+	background-color: gray;
+	border: 5px solid black;
+	color:white;
+	height: 200px;
+	overflow: auto;
+}
+div.col1 {
+	text-align: center;
+	width: 20%;
+	border: 2px solid black;
+	float: right;
+}
+div.col2{
+	float: left;
+}
+#chicken {
+	background-color: white;
+	color: black;
+}
+#beef {
+	background-color: pink;
+	color: black;
+}
+#sushi {
+	background-color: red;
+	color: white;
+}
+/**********large devices only***********/
+@media (min-width: 992px) {
+	nav.box {
+		box-sizing: border-box;
+		float: left;
+		width: 30.33%;
+	}
+}
+/**********medium size devices only********/
+@media (min-width: 768px) and (max-width: 991px) {
+	nav.box {
+		float: left;
+	}
+	#box1, #box2 {
+		width: 48%;
+	}
+}
+/**********small divices only*********/
+@media (max-width: 767px) {
+	nav.box {
+		float: left;
+		width: 100%
+	}
+>>>>>>> a12195a5705d00adb29047f723624652ababa457
+}
