@@ -23,6 +23,7 @@ body {
 	font-weight: bold;
 	border-bottom-color: gray;
 	line-height: 20px;
+	text-align: center;
 }
 /**--#nav-list a>span {
 	background: white;
