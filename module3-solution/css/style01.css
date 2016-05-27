@@ -42,6 +42,9 @@ hr {
 	color: gray;
 }
 /**content**/
+h2 {
+	text-align: center;
+}
 #item1, #item2, #item3 {
 	font-size: 1.2em;
 }
